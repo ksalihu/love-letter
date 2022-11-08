@@ -6,47 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Letter</title>
-    <style>
-        .top-player {
-            background-color: black;
-            grid-area: "tp";
-        }
-
-        .left-player {
-            grid-area: "lp";
-            background-color: rebeccapurple;
-        }
-
-        .right-player {
-            grid-area: "rp";
-            background-color: blue;
-        }
-
-        .bottom-player {
-            grid-area: "bp";
-            background-color: orange;
-            grid-column: span 3;
-        }
-
-        .deck{
-            grid-area: "dc";
-            background-color: brown;
-        }
-
-        .empty-area{
-            grid-area: "ea";
-        }
-        main {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-auto-rows: minmax(100px, auto);
-            height: max-content;
-            grid-template-areas:
-                "ea tp ea"
-                "lp tp rp"
-                "bp tp bp";
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
